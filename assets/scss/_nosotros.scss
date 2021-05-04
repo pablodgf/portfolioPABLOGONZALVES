@@ -1,0 +1,15 @@
+@mixin fuentes ($color, $fontsize){
+    font-size: $fontsize;
+    color: $color;
+    background-color: none;
+    text-transform: none;
+
+}
+
+.porQue h1 {
+    @include fuentes(grey, 24px);
+}
+
+.porQue p {
+    @include fuentes(grey, 18px);
+}

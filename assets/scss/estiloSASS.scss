@@ -1,0 +1,31 @@
+@import "general";
+@import "nosotros";
+
+$colorBG: grey;
+$colorTetxto: white;
+
+.footerModo {
+
+    background-color: $colorBG;
+
+}
+
+
+
+.resumenNav ul {
+
+            list-style: none;
+
+                li {
+                    display: block;
+
+                    a {
+
+                        text-decoration: none;
+                        color: $colorTetxto;
+                        background-color: $colorBG;
+
+                    }
+                }
+
+            }
