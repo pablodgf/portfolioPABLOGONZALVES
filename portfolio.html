@@ -1,390 +1,780 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta http-equiv="X-UA-Compatible" contenido="IE=edge">
+
     <meta name="viewport" contenido="width=device-width, initial-scale=1.0">
+
     <meta name="description" conten="Empresa dedicada el diseño gráfico, diseño web, posicionamiento, SEO y programación de sitios web, entre otros servicios.">
+
     <meta name="keywords" content="diseño web, marketing digital, marketing online, diseño de logo, campañas en redes, publicidad en redes, diseño ux/ui, diseño responsivo, diseño 3d, programación web, programacion de aplicaciones, posicionamiento y SEO">
+
     <title>GF Estudio ART - Diseño y programacion</title>
+
     <!-- Bootstrap -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
     <!-- Fuentes + Iconos-->
+
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
     <!-- CSS -->
+
     <link rel="stylesheet" href="assets/css/estiloSASS.css">
+
 </head>
 
+
+
 <body>
+
     <!-- Header -->
+
     <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
+
         <div class="container d-flex justify-content-between align-items-center">
+
             <a class="navbar-brand h1" href="index.html">
+
                 <i class='bx bx-pulse bx-sm text-dark'></i>
+
                 <span class="text-dark h4">GF Estudio</span> <span class="text-primary h4">ART</span>
+
             </a>
+
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
                 <span class="navbar-toggler-icon"></span>
+
             </button>
 
+
+
             <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
+
                 <div class="flex-fill mx-xl-5 mb-2">
+
                     <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+
                         <li class="nav-item">
+
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.html">Inicio</a>
+
                         </li>
+
                         <li class="nav-item">
+
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="servicios.html">Servicios</a>
+
                         </li>
+
                         <li class="nav-item">
+
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="portfolio.html">Portfolio</a>
+
                         </li>
+
                         <li class="nav-item">
+
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="nosotros.html">Nosotros</a>
+
                         </li>
+
                         <li class="nav-item">
+
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="contacto.html">Contacto</a>
+
                         </li>
+
                     </ul>
+
                 </div>
+
                 <div class="navbar align-self-center d-flex">
-                    <a class="nav-link" href="#"><i class='bx bxl-whatsapp bx-sm text-primary'></i></a>
-                    <a class="nav-link" href="#"><i class='bx bxl-facebook-circle bx-sm text-primary'></i></a>
+
+                    <a class="nav-link" href="http://www.whatsapp.com"><i class='bx bxl-whatsapp bx-sm text-primary'></i></a>
+
+                    <a class="nav-link" href="http://www.facebook.com"><i class='bx bxl-facebook-circle bx-sm text-primary'></i></a>
+
                     <a class="nav-link" href="#"><i class='bx bx-user-circle bx-sm text-primary'></i></a>
+
                 </div>
+
             </div>
+
         </div>
+
     </nav>
 
 
+
+
+
     <!-- banner -->
+
     <div id="work_banner" class="banner-wrapper bg-light w-100 py-5">
+
         <div class="banner-vertical-center-work container text-light d-flex justify-content-center align-items-center py-5 p-0">
+
             <div class="banner-content col-lg-8 col-12 m-lg-auto text-center">
+
                 <h1 class="banner-heading h2 display-3 pb-5 semi-bold-600 typo-space-line-center">Nuestros Trabajos</h1>
+
                 <h3 class="h4 pb-2 regular-400">Quienes confiaron en que se puede dar un gran salto de calidad</h3>
+
                 <p class="banner-body pb-2 light-300">
+
                     Toda tu presencia digital gestionada de forma unificada y coherente. 
+
                     Con las herramientas y la gestión necesaria para lograrlo.
+
                 </p>
+
             </div>
+
         </div>
+
     </div>
+
+
+
 
 
     <!-- Trabajos -->
+
     <section class="container py-5">
+
         <div class="row justify-content-center my-5">
+
             <div class="filter-btns shadow-md rounded-pill text-center col-auto">
+
                 <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4 active" data-filter=".project" href="#">Todos</a>
+
                 <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4" data-filter=".business" href="#">Diseño Web</a>
+
                 <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4" data-filter=".marketing" href="#">Marketing</a>
+
                 <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4" data-filter=".social" href="#">Institucionales</a>
+
                 <a class="filter-btn btn rounded-pill btn-outline-primary border-0 m-md-2 px-md-4" data-filter=".graphic" href="#">Programación</a>
+
             </div>
+
         </div>
 
+
+
         <div class="row projects gx-lg-5">
+
             <a href="trabajo-simple.html" class="col-sm-6 col-lg-4 text-decoration-none project marketing social business">
+
                 <div class="service-work overflow-hidden card mb-5 mx-5 m-sm-0">
+
                     <img class="card-img-top" src="./assets/img/trabajos-01.jpg" alt="...">
+
                     <div class="card-body">
+
                         <h5 class="card-title light-300 text-dark">Marketing Digital</h5>
+
                         <p class="card-text light-300 text-dark">
+
                             Email Marketing, fan pages, SEO, posicionamiento, campañas en redes sociales 
+
                             (orgánicas y publicitarias), banners, newsletters.
+
                         </p>
+
                         <span class="text-decoration-none text-primary light-300">
+
                               Leer más <i class='bx bxs-hand-right ms-1'></i>
+
                           </span>
+
                     </div>
+
                 </div>
+
             </a>
+
             <a href="trabajo-simple.html" class="col-sm-6 col-lg-4 text-decoration-none project graphic social">
+
                 <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+
                     <img class="card-img-top" src="./assets/img/trabajos-02.jpg" alt="...">
+
                     <div class="card-body">
+
                         <h5 class="card-title light-300 text-dark">Imágen Institucional</h5>
+
                         <p class="card-text light-300 text-dark">
+
                             Creación de logos, identidad visual, papelería, manual corporativo, carteles, 
+
                             avisos, packaging.
+
                         </p>
+
                         <span class="text-decoration-none text-primary light-300">
+
                               Leer más <i class='bx bxs-hand-right ms-1'></i>
+
                           </span>
+
                     </div>
+
                 </div>
+
             </a>
+
             <a href="trabajo-simple.html" class="col-sm-6 col-lg-4 text-decoration-none project marketing graphic business">
+
                 <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+
                     <img class="card-img-top" src="./assets/img/trabajos-03.jpg" alt="...">
+
                     <div class="card-body">
+
                         <h5 class="card-title light-300 text-dark">Soluciones Digitales</h5>
+
                         <p class="card-text light-300 text-dark">
+
                             Diseñamos interfaces y experiencias de usuario que garantizan 
+
                             un producto sencillo de usar y agradable a la vista.
+
                         </p>
+
                         <span class="text-decoration-none text-primary light-300">
+
                               Leer más <i class='bx bxs-hand-right ms-1'></i>
+
                           </span>
+
                     </div>
+
                 </div>
+
             </a>
+
             <a href="trabajo-simple.html" class="col-sm-6 col-lg-4 text-decoration-none project social business">
+
                 <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+
                     <img class="card-img-top" src="./assets/img/trabajos-04.jpg" alt="...">
+
                     <div class="card-body">
+
                         <h5 class="card-title light-300 text-dark">Apps Android</h5>
+
                         <p class="card-text light-300 text-dark">
+
                             Desde cero todo el software que necesite para su negocio, utilizando los 
+
                             estándares más efectivos del mercado tecnológico.
+
                         </p>
+
                         <span class="text-decoration-none text-primary light-300">
+
                               Leer más <i class='bx bxs-hand-right ms-1'></i>
+
                           </span>
+
                     </div>
+
                 </div>
+
             </a>
+
             <a href="trabajo-simple.html" class="col-sm-6 col-lg-4 text-decoration-none project marketing">
+
                 <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+
                     <img class="card-img-top" src="./assets/img/trabajos-05.jpg" alt="...">
+
                     <div class="card-body">
+
                         <h5 class="card-title light-300 text-dark">Corporativos</h5>
+
                         <p class="card-text light-300 text-dark">
+
                             Diseñamos interfaces y experiencias de usuario que garantizan un
+
                              producto sencillo de usar y agradable a la vista..
+
                         </p>
+
                         <span class="text-decoration-none text-primary light-300">
+
                               Leer más <i class='bx bxs-hand-right ms-1'></i>
+
                           </span>
+
                     </div>
+
                 </div>
+
             </a>
+
             <a href="trabajo-simple.html" class="col-sm-6 col-lg-4 text-decoration-none project marketing graphic">
+
                 <div class="service-work overflow-hidden card mx-5 mx-sm-0 mb-5">
+
                     <img class="card-img-top" src="./assets/img/trabajos-06.jpg" alt="...">
+
                     <div class="card-body">
+
                         <h5 class="card-title light-300 text-dark">Software CRM</h5>
+
                         <p class="card-text light-300 text-dark">
+
                             Desarrollamos software a medida, fácil de usar, mantenible y seguro.
+
                         </p>
+
                         <span class="text-decoration-none text-primary light-300">
+
                               Leer más <i class='bx bxs-hand-right ms-1'></i>
+
                           </span>
+
                     </div>
+
                 </div>
+
             </a>
+
         </div>
+
         <div class="row">
+
             <div class="btn-toolbar justify-content-center pb-4" role="toolbar" aria-label="Toolbar with button groups">
+
                 <div class="btn-group me-2" role="group" aria-label="First group">
+
                     <button type="button" class="btn btn-secondary text-white">Previous</button>
+
                 </div>
+
                 <div class="btn-group me-2" role="group" aria-label="Second group">
+
                     <button type="button" class="btn btn-light">1</button>
+
                 </div>
+
                 <div class="btn-group me-2" role="group" aria-label="Second group">
+
                     <button type="button" class="btn btn-secondary text-white">2</button>
+
                 </div>
+
                 <div class="btn-group" role="group" aria-label="Third group">
+
                     <button type="button" class="btn btn-secondary text-white">Next</button>
+
                 </div>
+
             </div>
+
         </div>
+
     </section>
+
+
+
 
 
     <!-- banner 2 -->
+
     <section class="bg-light py-5">
+
         <div class="feature-work container my-4">
+
             <div class="row d-flex d-flex align-items-center">
+
                 <div class="col-lg-5">
+
                     <h3 class="feature-work-title h4 text-muted light-300">Destáquese</h3>
+
                     <h1 class="feature-work-heading h2 py-3 semi-bold-600">Trabajemos juntos...</h1>
+
                     <p class="feature-work-body text-muted light-300">
+
                         En GF Estudio ART, brindamos una amplia gama de servicios relacionados al diseño gráfico, web y programación. No hay trabajo demasiado chico o grande para nosotros. Estamos para ayudarte a potenciar y mejorar tu proyecto.
 
+
+
 Contanos cuál es tu necesidad y te brindaremos una solución acorde a tus objetivos. Hacé tu consulta sin compromiso. ¡Estamos para ayudarte!
+
                     </p>
+
                     <p class="feature-work-footer text-muted light-300">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas. Duis aute irure dolor in reprehenderit in voluptate velit esse
+
                         cillum dolore eu fugiat nulla pariatur.</p>
+
                 </div>
+
                 <div class="col-lg-6 offset-lg-1 align-left">
+
                     <div class="row">
+
                         <a class="col" data-type="image" data-fslightbox="gallery">
+
                             <img class="img-fluid" src="./assets/img/servicios01.jpg">
+
                         </a>
+
                         <a class="col" data-type="image" data-fslightbox="gallery">
+
                             <img class="img-fluid" src="./assets/img/servicios02.jpg">
+
                         </a>
+
                     </div>
+
                     <div class="row pt-4">
+
                         <a class="col" data-type="image" data-fslightbox="gallery">
+
                             <img class="img-fluid" src="./assets/img/servicios03.jpg">
+
                         </a>
+
                         <a class="col" data-type="image" data-fslightbox="gallery">
+
                             <img class="img-fluid" src="./assets/img/servicios04.jpg">
+
                         </a>
+
                     </div>
+
                 </div>
+
             </div>
+
         </div>
+
     </section>
+
     
 
+
+
 <!-- Footer -->
+
 <footer class="bg-secondary pt-4">
+
     <div class="container">
+
         <div class="row py-4">
 
+
+
             <!-- Redes sociales -->
+
             <div class="col-lg-3 col-12 align-left">
+
                 <a class="navbar-brand" href="index.html">
+
                     <i class='bx bx-pulse bx-sm text-light'></i>
+
                     <span class="text-light h5">GF Estudio</span> <span class="text-light h5 semi-bold-600">ART</span>
+
                 </a>
+
                 <p class="text-light my-lg-4 my-2">
+
                     Trabajamos a tu lado como si tu negocio fuese nuestro. 
+
                         Eso nos hace diferentes.
+
                 </p>
+
                 <ul class="list-inline footer-icons light-300">
+
                     <li class="list-inline-item m-0">
+
                         <a class="text-light" target="_blank" href="http://facebook.com/">
+
                             <i class='bx bxl-facebook-square bx-md'></i>
+
                         </a>
+
                     </li>
+
                     <li class="list-inline-item m-0">
+
                         <a class="text-light" target="_blank" href="https://www.linkedin.com/">
+
                             <i class='bx bxl-linkedin-square bx-md'></i>
+
                         </a>
+
                     </li>
+
                     <li class="list-inline-item m-0">
+
                         <a class="text-light" target="_blank" href="https://www.whatsapp.com/">
+
                             <i class='bx bxl-whatsapp-square bx-md'></i>
+
                         </a>
+
                     </li>
+
                     <li class="list-inline-item m-0">
+
                         <a class="text-light" target="_blank" href="https://www.flickr.com/">
+
                             <i class='bx bxl-flickr-square bx-md'></i>
+
                         </a>
+
                     </li>
+
                     <li class="list-inline-item m-0">
+
                         <a class="text-light" target="_blank" href="https://www.instagram.com/">
+
                             <i class='bx bxl-instagram-alt bx-md' ></i>
+
                         </a>
+
                     </li>
+
                 </ul>
+
             </div>
+
+
 
             <!-- Resumen de navegación -->
+
             <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+
                 <h3 class="h4 pb-lg-3 text-light light-300">Nuestro Estudio</h2>
+
                     <ul class="list-unstyled text-light light-300">
+
                         <li class="pb-2">
+
                             <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="index.html">Inicio</a>
+
                         </li>
+
                         <li class="pb-2">
+
                             <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="servicios.html">Servicios</a>
+
                         </li>
+
                         <li class="pb-2">
+
                             <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="portfolio.html">Portfolio</a>
+
                         </li>
+
                         <li class="pb-2">
+
                             <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a class="text-decoration-none text-light py-1" href="nosotros.html">Nosotros</a>
+
                         </li>
+
                         <li class="pb-2">
+
                             <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="contacto.html">Contacto</a>
+
                         </li>
+
                     </ul>
+
             </div>
+
+
+
 
             <!-- Resumen de portfolio -->
+
             <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+
                 <h2 class="h4 pb-lg-3 text-light light-300">Nuestro Trabajo</h2>
+
                 <ul class="list-unstyled text-light light-300">
+
                     <li class="pb-2">
-                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Diseño Web</a>
+
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="trabajo-simple.html">Diseño Web</a>
+
                     </li>
+
                     <li class="pb-2">
-                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Programación</a>
+
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="trabajo-simple.html">Programación</a>
+
                     </li>
+
                     <li class="pb-2">
-                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Marketing</a>
+
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="trabajo-simple.html">Marketing</a>
+
                     </li>
+
                     <li class="pb-2">
-                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Social Media</a>
+
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="trabajo-simple.html">Social Media</a>
+
                     </li>
+
                     <li class="pb-2">
-                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Soluciones Digitales</a>
+
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="trabajo-simple.html">Soluciones Digitales</a>
+
                     </li>
+
                 </ul>
+
             </div>
+
+
 
             <!-- Datos de contacto footer -->
+
             <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+
                 <h2 class="h4 pb-lg-3 text-light light-300">Contactanos ahora</h2>
+
                 <ul class="list-unstyled text-light light-300">
+
                     <li class="pb-2">
+
                         <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" href="tel:555-000-0000">555-000-0000</a>
+
                     </li>
+
                     <li class="pb-2">
+
                         <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1" href="mailto:contacto@gfestudio.com.ar">contacto@gfestudio.com.ar</a>
+
                     </li>
+
                 </ul>
+
             </div>
 
+
+
         </div>
+
     </div>
+
+
 
     <div class="w-100 bg-primary py-3">
+
         <div class="container">
+
             <div class="row pt-2">
+
                 <div class="col-lg-6 col-sm-12">
+
                     <p class="text-lg-start text-center text-light light-300">
+
                         © Copyright 2021 GF Estudio ART. TODOS los derechos reservados.
+
                     </p>
+
                 </div>
+
                 <div class="col-lg-6 col-sm-12">
+
                     <p class="text-lg-end text-center text-light light-300">
+
                         Diseñado por <a rel="sponsored" class="text-decoration-none text-light" href="https://gfestudio.com/" target="_blank"><strong>GF Estudio ART</strong></a>
+
                     </p>
+
                 </div>
+
             </div>
+
         </div>
+
     </div>
+
+
 
 </footer>
 
+
+
 <!-- Bootstrap -->
+
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
 
+
+
+
 <!-- Scrips Galeria con selección  -->
+
 <script src="assets/js/jquery.min.js"></script>
+
 <script src="assets/js/isotope.pkgd.js"></script>
+
 <script>
+
     $(window).load(function() {
+
         
+
         var $projects = $('.projects').isotope({
+
             itemSelector: '.project',
+
             layoutMode: 'fitRows'
+
         });
+
         $(".filter-btn").click(function() {
+
             var data_filter = $(this).attr("data-filter");
+
             $projects.isotope({
+
                 filter: data_filter
+
             });
+
             $(".filter-btn").removeClass("active");
+
             $(".filter-btn").removeClass("shadow");
+
             $(this).addClass("active");
+
             $(this).addClass("shadow");
+
             return false;
+
         });
+
     });
+
 </script>
 
 
+
+
+
 </body>
+
 </html>
